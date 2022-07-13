@@ -1,0 +1,24 @@
+{
+    "page": 1,
+    "results": [
+      {
+        "backdrop_path": "backdropPath",
+        "first_air_date": "2021-09-03",
+        "genre_ids": [1, 2, 3],
+        "id": 1,
+        "name": "name",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "originalLanguage",
+        "original_name": "originalName",
+        "overview": "overview",
+        "popularity": 1,
+        "poster_path": "posterPath",
+        "vote_average": 1,
+        "vote_count": 1
+      }
+    ],
+    "total_pages": 51,
+    "total_results": 1009
+  }
