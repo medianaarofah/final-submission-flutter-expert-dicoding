@@ -27,6 +27,8 @@ class TVSeriesRepositoryImpl implements TVSeriesRepository {
       return Left(ServerFailure(''));
     } on SocketException {
       return Left(ConnectionFailure('Failed to connect to the network'));
+    } on TlsException catch (e) {
+      return Left(CommonFailure('Certificated not valid\n${e.message}'));
     }
   }
 
@@ -39,6 +41,8 @@ class TVSeriesRepositoryImpl implements TVSeriesRepository {
       return Left(ServerFailure(''));
     } on SocketException {
       return Left(ConnectionFailure('Failed to connect to the network'));
+    } on TlsException catch (e) {
+      return Left(CommonFailure('Certificated not valid\n${e.message}'));
     }
   }
 
@@ -52,6 +56,8 @@ class TVSeriesRepositoryImpl implements TVSeriesRepository {
       return Left(ServerFailure(''));
     } on SocketException {
       return Left(ConnectionFailure('Failed to connect to the network'));
+    } on TlsException catch (e) {
+      return Left(CommonFailure('Certificated not valid\n${e.message}'));
     }
   }
 
@@ -64,6 +70,8 @@ class TVSeriesRepositoryImpl implements TVSeriesRepository {
       return Left(ServerFailure(''));
     } on SocketException {
       return Left(ConnectionFailure('Failed to connect to the network'));
+    } on TlsException catch (e) {
+      return Left(CommonFailure('Certificated not valid\n${e.message}'));
     }
   }
 
@@ -76,6 +84,8 @@ class TVSeriesRepositoryImpl implements TVSeriesRepository {
       return Left(ServerFailure(''));
     } on SocketException {
       return Left(ConnectionFailure('Failed to connect to the network'));
+    } on TlsException catch (e) {
+      return Left(CommonFailure('Certificated not valid\n${e.message}'));
     }
   }
 
@@ -88,6 +98,8 @@ class TVSeriesRepositoryImpl implements TVSeriesRepository {
       return Left(ServerFailure(''));
     } on SocketException {
       return Left(ConnectionFailure('Failed to connect to the network'));
+    } on TlsException catch (e) {
+      return Left(CommonFailure('Certificated not valid\n${e.message}'));
     }
   }
 

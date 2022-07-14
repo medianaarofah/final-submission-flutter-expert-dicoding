@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\KAMPUS\\KULIAH\\MBKM\\Kelas\\Menjadi Flutter Developer Expert\\Submission 2\\CI\\submission-2-flutter-expert-dicoding\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\KAMPUS\\KULIAH\\MBKM\\New folder\\Expert\\final-submission-flutter-expert-dicoding\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\KAMPUS\\KULIAH\\MBKM\\Kelas\\Menjadi Flutter Developer Expert\\Submission 2\\CI\\submission-2-flutter-expert-dicoding\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\KAMPUS\\KULIAH\\MBKM\\New folder\\Expert\\final-submission-flutter-expert-dicoding\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
