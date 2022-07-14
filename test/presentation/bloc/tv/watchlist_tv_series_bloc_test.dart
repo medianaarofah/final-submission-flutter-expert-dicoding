@@ -147,7 +147,7 @@ void main() {
     );
   });
 
-  group('Removed watchlist tv series bloc testing', () {
+  group('Removed Watchlist TV Series Bloc Testing', () {
     blocTest<WatchlistTVSeriesBloc, WatchlistTVSeriesState>(
       'Should emit [Loading, HasData] when data is gotten successfully',
       build: () {

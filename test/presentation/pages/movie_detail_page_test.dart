@@ -132,6 +132,8 @@ void main() {
   });
 }
 
+// fake class for movie detail, movie recommendations, and watchlist movie
+
 class FakeMovieDetailEvent extends Fake implements MovieDetailEvent {}
 
 class FakeMovieDetailState extends Fake implements MovieDetailState {}

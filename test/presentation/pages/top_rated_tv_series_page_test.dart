@@ -32,6 +32,7 @@ void main() {
 
     final viewProgressFinder = find.byType(CircularProgressIndicator);
     final centerFinder = find.byType(Center);
+
     await tester.pumpWidget(_makeTestableWidget(TopRatedTVSeriesPage()));
     expect(centerFinder, findsOneWidget);
     expect(viewProgressFinder, findsOneWidget);
@@ -44,6 +45,7 @@ void main() {
 
     final viewProgressFinder = find.byType(CircularProgressIndicator);
     final listViewFinder = find.byType(Center);
+
     await tester.pumpWidget(_makeTestableWidget(TopRatedTVSeriesPage()));
     expect(listViewFinder, findsOneWidget);
     expect(viewProgressFinder, findsOneWidget);
@@ -63,6 +65,8 @@ void main() {
     expect(textFinder, findsOneWidget);
   });
 }
+
+// fake class for top rated tv series
 
 class FakeTopRatedTVSeriesEvent extends Fake implements TopRatedTVSeriesEvent {}
 

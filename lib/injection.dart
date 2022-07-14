@@ -42,7 +42,6 @@ import 'package:ditonton/presentation/bloc/tv/top_rated_tv_series_bloc.dart';
 import 'package:ditonton/presentation/bloc/tv/tv_series_detail_bloc.dart';
 import 'package:ditonton/presentation/bloc/tv/tv_series_recommendations_bloc.dart';
 import 'package:ditonton/presentation/bloc/tv/watchlist_tv_series_bloc.dart';
-import 'package:http/http.dart' as http;
 import 'package:get_it/get_it.dart';
 
 final locator = GetIt.instance;

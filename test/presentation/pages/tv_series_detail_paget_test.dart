@@ -103,6 +103,7 @@ void main() {
     when(() => fakeTVSeriesRecommendationsBloc.state)
         .thenReturn(TVSeriesRecommendationsHasData(testTVSeriesList));
     final addIconFinder = find.byIcon(Icons.add);
+
     await tester.pumpWidget(_makeTestableWidget(TVSeriesDetailPage(id: 1)));
     await tester.pump();
     expect(addIconFinder, findsOneWidget);
@@ -117,11 +118,14 @@ void main() {
     when(() => fakeTVSeriesRecommendationsBloc.state)
         .thenReturn(TVSeriesRecommendationsHasData(testTVSeriesList));
     final checkIconFinder = find.byIcon(Icons.check);
+
     await tester.pumpWidget(_makeTestableWidget(TVSeriesDetailPage(id: 1)));
     await tester.pump();
     expect(checkIconFinder, findsOneWidget);
   });
 }
+
+// fake class for tv series detail, tv series recommendations, and tv series watchlist
 
 class FakeTVSeriesDetailEvent extends Fake implements TVSeriesDetailEvent {}
 
