@@ -1,4 +1,0 @@
-#Thu Jul 14 19:19:24 SGT 2022
-base.0=D\:\\KAMPUS\\KULIAH\\MBKM\\New folder\\Expert\\final-submission-flutter-expert-dicoding\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
